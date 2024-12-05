@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roadmap del Proyecto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding-left: 50px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 25px;
+      top: 0;
+      height: 100%;
+      width: 2px;
+      background-color: #d9d9d9;
+    }
+
+    .timeline-item {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .timeline-item .icon {
+      background-color: #007bff;
+      color: #fff;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      margin-right: 20px;
+    }
+
+    .timeline-item .content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      flex: 1;
+    }
+
+    .timeline-item .content h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .timeline-item .content p {
+      margin: 0;
+      color: #666;
+    }
+
+    .timeline-item:nth-child(even) .content {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Roadmap del Proyecto</h1>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="icon"><i class="fas fa-pencil-alt"></i></div>
+        <div class="content">
+          <h3>Fase 1: Desarrollo del Front-End</h3>
+          <p>Wireframes, dashboards específicos, integración con Firebase.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="icon"><i class="fas fa-code"></i></div>
+        <div class="content">
+          <h3>Fase 2: Desarrollo del Back-End</h3>
+          <p>API RESTful, flujos de negocio, integración con MS SQL Server.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="icon"><i class="fas fa-paint-brush"></i></div>
+        <div class="content">
+          <h3>Fase 3: Mejora de UX/UI</h3>
+          <p>Rediseño visual, accesibilidad, validación de usuarios.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="icon"><i class="fas fa-vial"></i></div>
+        <div class="content">
+          <h3>Fase 4: Integración y Testing</h3>
+          <p>Pruebas completas, ajustes finales.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="icon"><i class="fas fa-chart-line"></i></div>
+        <div class="content">
+          <h3>Fase 5: Monitoreo Post-Despliegue</h3>
+          <p>Rendimiento, ajustes menores, informe final.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
