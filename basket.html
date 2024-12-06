@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de Basketball - Admisión 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f00;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img {
+            height: 50px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .banner {
+            display: flex;
+            background-color: #eeeeee;
+            padding: 20px;
+            align-items: center;
+        }
+        .banner .info {
+            flex: 1;
+            padding: 20px;
+        }
+        .banner img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            background-color: #ff6f00;
+            margin: 0;
+            padding: 10px 0;
+        }
+        .tabs a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .tabs a:hover {
+            background-color: #e65100;
+        }
+        .content {
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .content h2 {
+            color: #ff6f00;
+        }
+        footer {
+            background-color: #212121;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .floating-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .floating-buttons a {
+            background-color: #ff6f00;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .floating-buttons a:hover {
+            background-color: #e65100;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Academia Basketball">
+        <nav>
+            <a href="#admisión">Admisión</a>
+            <a href="#programa">Programa</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="info">
+            <h1>Academia de Basketball</h1>
+            <p>Descubre tu máximo potencial con nosotros. ¡Prepárate para la temporada 2024 con un programa diseñado para ganar!</p>
+        </div>
+        <img src="basketball-player.jpg" alt="Jugador de basketball">
+    </div>
+    <div class="tabs">
+        <a href="#requisitos">Requisitos de Inscripción</a>
+        <a href="#programa">Programa</a>
+        <a href="#perfil">Perfil del Jugador</a>
+    </div>
+    <div class="content">
+        <section id="requisitos">
+            <h2>Requisitos de Inscripción</h2>
+            <ul>
+                <li>Formulario de inscripción completo.</li>
+                <li>Examen médico reciente.</li>
+                <li>Compromiso con el entrenamiento intensivo.</li>
+            </ul>
+        </section>
+        <section id="programa">
+            <h2>Programa</h2>
+            <p>Nuestro programa incluye entrenamiento técnico, táctico, y mental, además de torneos para desafiar tus límites.</p>
+        </section>
+        <section id="perfil">
+            <h2>Perfil del Jugador</h2>
+            <p>Desarrollamos jugadores completos: fuertes, tácticos, y líderes en la cancha.</p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Academia de Basketball. Todos los derechos reservados.</p>
+    </footer>
+    <div class="floating-buttons">
+        <a href="#preguntas">?</a>
+        <a href="#buscar">🔍</a>
+    </div>
+</body>
+</html>
