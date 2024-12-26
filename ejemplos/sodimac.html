@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackSodimac Layout</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container my-5">
+    <!-- Categorías -->
+    <h2 class="text-center mb-4">Destacados del BlackSodimac</h2>
+    <p class="text-center text-muted mb-4">Miles de productos a precios imperdibles, todo lo que buscas para tu hogar encuéntralo aquí.</p>
+    <div class="row text-center justify-content-center mb-5">
+      <div class="col-4 col-md-2">
+        <img src="https://via.placeholder.com/100" class="rounded-circle mb-2" alt="Piscinas">
+        <p class="fw-semibold">Piscinas</p>
+      </div>
+      <div class="col-4 col-md-2">
+        <img src="https://via.placeholder.com/100" class="rounded-circle mb-2" alt="Ventiladores">
+        <p class="fw-semibold">Ventiladores</p>
+      </div>
+      <div class="col-4 col-md-2">
+        <img src="https://via.placeholder.com/100" class="rounded-circle mb-2" alt="Camas">
+        <p class="fw-semibold">Camas</p>
+      </div>
+      <div class="col-4 col-md-2">
+        <img src="https://via.placeholder.com/100" class="rounded-circle mb-2" alt="Tecnología">
+        <p class="fw-semibold">Tecnología</p>
+      </div>
+      <div class="col-4 col-md-2">
+        <img src="https://via.placeholder.com/100" class="rounded-circle mb-2" alt="Herramientas">
+        <p class="fw-semibold">Herramientas</p>
+      </div>
+    </div>
+
+    <!-- Carrusel de Productos -->
+    <h2 class="text-center mb-4">Productos Recomendados</h2>
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 1">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Piscina Inflable</h6>
+                  <p class="text-danger fw-bold">$99.990 <span class="text-muted text-decoration-line-through">$120.000</span></p>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-alt text-warning"></i>
+                    <i class="fa fa-star text-muted"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 2">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Ventilador Portátil</h6>
+                  <p class="text-danger fw-bold">$29.990</p>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-muted"></i>
+                    <i class="fa fa-star text-muted"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 3">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Set de Jardín</h6>
+                  <p class="text-danger fw-bold">$49.990 <span class="text-muted text-decoration-line-through">$59.990</span></p>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-muted"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 4">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Juego de Vajilla</h6>
+                  <p class="text-danger fw-bold">$19.990</p>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-muted"></i>
+                    <i class="fa fa-star text-muted"></i>
+                    <i class="fa fa-star text-muted"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 5">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Parrilla a Carbón</h6>
+                  <p class="text-danger fw-bold">$79.990</p>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-alt text-warning"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 6">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Escritorio Moderno</h6>
+                  <p class="text-danger fw-bold">$59.990 <span class="text-muted text-decoration-line-through">$69.990</span></p>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-alt text-warning"></i>
+                    <i class="fa fa-star text-muted"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 7">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Silla Ergonométrica</h6>
+                  <p class="text-danger fw-bold">$89.990</p>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-muted"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto 8">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Alfombra Persa</h6>
+                  <p class="text-danger fw-bold">$99.990</p>
+                  <div>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star-half-alt text-warning"></i>
+                    <i class="fa fa-star text-muted"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controles del Carrusel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

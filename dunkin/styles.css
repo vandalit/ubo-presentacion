@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #9acd32; /* yellowgreen */
+}
+.navbar-nav .nav-link {
+    color: #f5f5f5;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #9acd32;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    color: #f5f5f5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Products Section */
+.products {
+    background-color: #2a2a2a;
+}
+.products h2 {
+    color: #9acd32;
+}
+.card {
+    background-color: #333;
+    color: #f5f5f5;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #9acd32;
+    border-color: #9acd32;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btn-success:hover {
+    background-color: #7fbf2a;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        padding: 2rem;
+    }
+    .products .card {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Animaciones */
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s, transform 0.6s;
+}
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
